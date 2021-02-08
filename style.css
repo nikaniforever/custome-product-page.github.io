@@ -1,0 +1,124 @@
+.title h2{
+    margin-bottom: 0.5rem;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+}
+.price h2 {
+    color: #ff5000;
+    font-size: 22px;
+}
+.shipping {
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    padding: 0px;
+}
+.add_to_cart, .button_width {
+    width: 100%;
+}
+.add_to_cart button{
+    width: 80%;
+    background-color: #ff5000;
+    outline: navajowhite;
+    border: navajowhite;
+    color: #fff;
+
+}
+.shipping h6{
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 10px 14px;
+    color: #515151;
+    font-size: 13px;
+    font-weight: 600;
+}
+.description h6{
+    font-size: 16px;
+    line-height: 23px;
+    color: #000;
+    font-weight: bold;
+}
+
+..description ul li {
+    font-size: 16px;
+    line-height: 23px;
+}
+ /* -- quantity box -- */
+
+ .quantity {
+    display: inline-block; }
+   
+   .quantity .input-text.qty {
+    /* width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef; */
+
+    width: 40%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1em;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    color: #000;
+    background: none;
+    padding: 0;
+    margin-top: 12px
+   }
+   .sold-out {
+    display: none;
+}
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+ 
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor:pointer;}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+    .main{
+        padding-top:30px;
+    }
+    .quantity_selector{
+padding: 12px 0px;
+    }
